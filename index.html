@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zillion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <!-- ====Section First With Header==== -->
+    <section class="bg-img-header min-vh-100 d-flex flex-column align-items-center">
+        <div class="container">
+            <header>
+                <nav class="d-flex justify-content-between py-4 p-0 align-items-center">
+                    <a href="#"><img src="/assets/img/svg/logo.svg" alt="logo">
+                    </a>
+                    <ul class="d-flex align-items-center justify-content-center flex-lg-row flex-column gap-5 mb-0 sm-navbar"
+                        id="nav">
+                        <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary" href="#">Home</a>
+                        </li>
+                        <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary"
+                                href="#">Services</a></li>
+                        <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary"
+                                href="#">Investors</a></li>
+                        <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary" href="#">About
+                                Us</a></li>
+                        <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary btn-contact"
+                                href="#">Contact Us</a></li>
+                    </ul>
+                    <button onclick="navresponsive()"
+                        class="d-lg-none z-3 menu-button fs-sm fw-md fm-poppins">Menu</button>
+                </nav>
+            </header>
+        </div>
+        <div class="container flex-grow-1 d-flex align-items-center justify-content-center">
+            <div class="d-flex flex-column justify-content-center">
+                <div class=" d-flex justify-content-center mt-10">
+                    <h1 class="fm-poppins fw-md fs-xl color-primary text-center mb-2 max-w-729">A
+                        smarter way to invest and save for the future</h1>
+                </div>
+                <div class="d-flex justify-content-center mt-5 mb-50">
+                    <button class="fw-md fs-sm btn-know-more">Know More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====Second Second==== -->
+    <section class="position-relative">
+        <section class="bg-color-secondary py-5">
+            <!-- =====Section Absoulte===== -->
+            <div class="container bg-color-primary box-shadow py-5 position-absoulte-sa">
+                <div class="container-css">
+                    <div class="row">
+                        <div
+                            class="col-lg-4 col-md-6 col-12 mb-3 mb-lg-0 mb-md-3 d-flex flex-column align-items-center justify-content-center">
+                            <span class="mb-5">
+                                <svg width="52" height="53" viewBox="0 0 52 53" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_649_658)">
+                                        <path
+                                            d="M25.812 -0.0631789C25.7274 -0.0476117 25.6439 -0.0265038 25.562 1.34036e-05C25.1105 0.103163 24.708 0.362704 24.4232 0.734408C24.1384 1.10611 23.9888 1.56698 24 2.03847V4.20536C13.474 5.17771 5.08002 13.7331 4.12402 24.4615H2.00002C1.93739 24.4585 1.87465 24.4585 1.81202 24.4615C1.28159 24.487 0.782781 24.7261 0.425337 25.1263C0.0678926 25.5266 -0.118912 26.0552 -0.0939814 26.5958C-0.0690511 27.1365 0.165572 27.6448 0.558273 28.0092C0.950974 28.3735 1.46959 28.5639 2.00002 28.5385H4.12602C5.08002 39.2669 13.474 47.8223 24 48.7967V50.9616C24 51.5022 24.2107 52.0207 24.5858 52.403C24.9609 52.7852 25.4696 53 26 53C26.5305 53 27.0392 52.7852 27.4142 52.403C27.7893 52.0207 28 51.5022 28 50.9616V48.7947C38.526 47.8223 46.92 39.2669 47.876 28.5385H50C50.5305 28.5385 51.0392 28.3237 51.4142 27.9414C51.7893 27.5591 52 27.0406 52 26.5C52 25.9594 51.7893 25.4409 51.4142 25.0586C51.0392 24.6763 50.5305 24.4615 50 24.4615H47.874C46.92 13.7331 38.528 5.17771 28 4.20332V2.03847C28.0101 1.7486 27.9594 1.45987 27.8513 1.19157C27.7431 0.923267 27.5801 0.681576 27.373 0.482643C27.1659 0.283711 26.9195 0.132117 26.6503 0.0379907C26.3811 -0.0561355 26.0953 -0.0906269 25.812 -0.0631789ZM24 10.3187V12.2308C24 12.7714 24.2107 13.2899 24.5858 13.6722C24.9609 14.0545 25.4696 14.2692 26 14.2692C26.5305 14.2692 27.0392 14.0545 27.4142 13.6722C27.7893 13.2899 28 12.7714 28 12.2308V10.3187C31.5272 10.7664 34.807 12.4003 37.3203 14.962C39.8337 17.5237 41.4368 20.8666 41.876 24.4615H40C39.9374 24.4585 39.8747 24.4585 39.812 24.4615C39.2816 24.487 38.7828 24.7261 38.4253 25.1263C38.0679 25.5266 37.8811 26.0552 37.906 26.5958C37.9309 27.1365 38.1656 27.6448 38.5583 28.0092C38.951 28.3735 39.4696 28.5639 40 28.5385H41.876C41.4368 32.1334 39.8337 35.4764 37.3203 38.038C34.807 40.5997 31.5272 42.2337 28 42.6813V40.7692C28.0074 40.4595 27.9454 40.1521 27.8188 39.8704C27.6921 39.5887 27.5041 39.3401 27.2691 39.1436C27.034 38.9471 26.7581 38.8078 26.4623 38.7362C26.1665 38.6647 25.8586 38.6628 25.562 38.7308C25.1105 38.8339 24.708 39.0935 24.4232 39.4652C24.1384 39.8369 23.9888 40.2977 24 40.7692V42.6813C20.4729 42.2337 17.193 40.5997 14.6797 38.038C12.1664 35.4764 10.5632 32.1334 10.124 28.5385H12C12.5305 28.5385 13.0392 28.3237 13.4142 27.9414C13.7893 27.5591 14 27.0406 14 26.5C14 25.9594 13.7893 25.4409 13.4142 25.0586C13.0392 24.6763 12.5305 24.4615 12 24.4615H10.124C10.5632 20.8666 12.1664 17.5237 14.6797 14.962C17.193 12.4003 20.4729 10.7664 24 10.3187Z"
+                                            fill="#1F1F1F" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_649_658">
+                                            <rect width="52" height="53" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <h2 class="fm-poppins fw-md fs-md mb-4">Define</h2>
+                            <p class="fm-poppins fs-xsm fw-sm max-w-332 text-justify">Define your home need. Zillion is
+                                a
+                                wealth
+                                Container
+                                platform. It
+                                lets you set-up and deploy
+                                complex legal entities such as funds ans SPVs inhours with a few clicks
+                            </p>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-6 col-12 mb-3 mb-lg-0 mb-md-3 d-flex flex-column align-items-center justify-content-center">
+                            <span class="mb-5">
+                                <svg width="52" height="53" viewBox="0 0 52 53" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.6251 29.8125C13.0182 29.8125 11.4473 30.2982 10.1111 31.2081C8.77497 32.1181 7.73357 33.4115 7.1186 34.9247C6.50364 36.4379 6.34274 38.1029 6.65624 39.7093C6.96975 41.3158 7.74358 42.7913 8.87988 43.9495C10.0162 45.1076 11.4639 45.8963 13.04 46.2159C14.6161 46.5354 16.2498 46.3714 17.7344 45.7446C19.2191 45.1178 20.488 44.0564 21.3808 42.6946C22.2736 41.3327 22.7501 39.7316 22.7501 38.0938C22.7501 37.0062 22.54 35.9294 22.1316 34.9247C21.7233 33.9199 21.1248 33.007 20.3704 32.238C19.6159 31.469 18.7202 30.859 17.7344 30.4429C16.7487 30.0267 15.6921 29.8125 14.6251 29.8125ZM14.6251 41.4062C13.9823 41.4062 13.354 41.212 12.8195 40.848C12.2851 40.484 11.8685 39.9667 11.6225 39.3614C11.3765 38.7561 11.3122 38.0901 11.4376 37.4475C11.563 36.805 11.8725 36.2147 12.327 35.7515C12.7815 35.2882 13.3606 34.9727 13.9911 34.8449C14.6215 34.7171 15.275 34.7827 15.8688 35.0334C16.4627 35.2841 16.9703 35.7087 17.3274 36.2534C17.6845 36.7982 17.8751 37.4386 17.8751 38.0938C17.8751 38.9723 17.5327 39.8148 16.9232 40.436C16.3137 41.0573 15.4871 41.4062 14.6251 41.4062ZM8.12513 26.5C7.47892 26.4971 6.85938 26.2371 6.39856 25.7754C6.17132 25.5446 5.99102 25.2703 5.86799 24.9683C5.74497 24.6664 5.68164 24.3426 5.68164 24.0156C5.68164 23.6886 5.74497 23.3649 5.86799 23.0629C5.99102 22.7609 6.17132 22.4867 6.39856 22.2559L8.7345 19.875L6.39856 17.4941C5.94065 17.0274 5.6834 16.3944 5.6834 15.7344C5.6834 15.0743 5.94065 14.4413 6.39856 13.9746C6.85648 13.5079 7.47754 13.2457 8.12513 13.2457C8.77271 13.2457 9.39377 13.5079 9.85169 13.9746L12.1876 16.3555L14.5236 13.9746C14.9815 13.5079 15.6025 13.2457 16.2501 13.2457C16.8977 13.2457 17.5188 13.5079 17.9767 13.9746C18.4346 14.4413 18.6919 15.0743 18.6919 15.7344C18.6919 16.3944 18.4346 17.0274 17.9767 17.4941L15.6408 19.875L17.9767 22.2559C18.2039 22.4867 18.3842 22.7609 18.5073 23.0629C18.6303 23.3649 18.6936 23.6886 18.6936 24.0156C18.6936 24.3426 18.6303 24.6664 18.5073 24.9683C18.3842 25.2703 18.2039 25.5446 17.9767 25.7754C17.5167 26.2381 16.8964 26.4976 16.2501 26.4976C15.6038 26.4976 14.9835 26.2381 14.5236 25.7754L12.1876 23.3945L9.85169 25.7754C9.39087 26.2371 8.77133 26.4971 8.12513 26.5ZM45.6017 42.1309C45.8289 42.3617 46.0092 42.6359 46.1323 42.9379C46.2553 43.2399 46.3186 43.5636 46.3186 43.8906C46.3186 44.2176 46.2553 44.5414 46.1323 44.8433C46.0092 45.1453 45.8289 45.4196 45.6017 45.6504C45.1417 46.1131 44.5214 46.3726 43.8751 46.3726C43.2288 46.3726 42.6085 46.1131 42.1486 45.6504L39.8126 43.2695L37.4767 45.6504C37.0167 46.1131 36.3964 46.3726 35.7501 46.3726C35.1038 46.3726 34.4835 46.1131 34.0236 45.6504C33.7963 45.4196 33.616 45.1453 33.493 44.8433C33.37 44.5414 33.3066 44.2176 33.3066 43.8906C33.3066 43.5636 33.37 43.2399 33.493 42.9379C33.616 42.6359 33.7963 42.3617 34.0236 42.1309L36.3595 39.75L34.0236 37.3691C33.5657 36.9024 33.3084 36.2694 33.3084 35.6094C33.3084 34.9493 33.5657 34.3163 34.0236 33.8496C34.4815 33.3829 35.1025 33.1207 35.7501 33.1207C36.3977 33.1207 37.0188 33.3829 37.4767 33.8496L39.8126 36.2305L42.1486 33.8496C42.6065 33.3829 43.2275 33.1207 43.8751 33.1207C44.5227 33.1207 45.1438 33.3829 45.6017 33.8496C46.0596 34.3163 46.3169 34.9493 46.3169 35.6094C46.3169 36.2694 46.0596 36.9024 45.6017 37.3691L43.2658 39.75L45.6017 42.1309ZM36.7861 22.9598C35.7298 27.7008 32.0533 31.9656 27.6251 33.5598C27.3652 33.6581 27.0899 33.7072 26.8126 33.7047C26.239 33.7028 25.6844 33.4948 25.2464 33.1173C24.8084 32.7398 24.5151 32.2169 24.4181 31.6407C24.321 31.0645 24.4264 30.4718 24.7158 29.967C25.0052 29.4622 25.46 29.0776 26.0001 28.8809C28.8642 27.8457 31.3423 24.968 32.0329 21.8625C32.5204 19.6887 32.1142 17.5355 30.8751 15.5273V17.3906C30.8751 18.0495 30.6183 18.6814 30.1612 19.1473C29.7041 19.6133 29.0841 19.875 28.4376 19.875C27.7912 19.875 27.1712 19.6133 26.7141 19.1473C26.2569 18.6814 26.0001 18.0495 26.0001 17.3906V9.10938C26.0001 8.45048 26.2569 7.81857 26.7141 7.35266C27.1712 6.88675 27.7912 6.625 28.4376 6.625H36.5626C37.2091 6.625 37.8291 6.88675 38.2862 7.35266C38.7433 7.81857 39.0001 8.45048 39.0001 9.10938C39.0001 9.76827 38.7433 10.4002 38.2862 10.8661C37.8291 11.332 37.2091 11.5938 36.5626 11.5938H34.1251C36.7251 15.0305 37.6595 19.0055 36.7861 22.9598Z"
+                                        fill="#1F1F1F" />
+                                </svg>
+
+
+                            </span>
+                            <h2 class="fm-poppins fw-md fs-md mb-4">Strategy</h2>
+                            <p class="fm-poppins fs-xsm fw-sm max-w-332 text-justify">Define your home need. Zillion is
+                                a
+                                wealth
+                                Container
+                                platform. It
+                                lets you set-up and deploy
+                                complex legal entities such as funds ans SPVs inhours with a few clicks
+                            </p>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-6 col-12 d-flex flex-column align-items-center justify-content-center">
+                            <span class="mb-5">
+                                <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_649_649)">
+                                        <path
+                                            d="M51.1615 17.6432L34.5475 9.28849V25.9978L51.1615 17.6453V17.6432ZM17.693 34.3568V17.6432L0.838504 9.28849V26L17.6952 34.3568H17.693ZM0.396504 8.57566C0.517814 8.49931 0.656869 8.45578 0.800055 8.44933C0.943241 8.44287 1.08565 8.47371 1.21334 8.53882L17.693 16.7093L34.1748 8.53882C34.2912 8.48049 34.4195 8.45012 34.5497 8.45012C34.6798 8.45012 34.8082 8.48049 34.9245 8.53882L51.5385 16.8957C51.6772 16.9652 51.7938 17.0719 51.8753 17.2039C51.9568 17.3359 52 17.488 52 17.6432V34.3482C51.9999 34.5036 51.9567 34.6559 51.8752 34.7882C51.7938 34.9206 51.6772 35.0277 51.5385 35.0978L34.9245 43.4612C34.7966 43.5247 34.6546 43.5547 34.5119 43.5483C34.3692 43.5419 34.2304 43.4993 34.1087 43.4246C33.987 43.3498 33.8862 43.2454 33.8159 43.121C33.7456 42.9967 33.7081 42.8565 33.7068 42.7137V27.352L18.0657 35.1087C17.9496 35.1653 17.8222 35.1948 17.693 35.1948C17.5639 35.1948 17.4364 35.1653 17.3203 35.1087L0.465838 26.7497C0.326171 26.6804 0.208591 26.5735 0.126303 26.4411C0.0440141 26.3086 0.000277275 26.1559 4.37897e-06 26V9.28849C-0.00045834 9.14567 0.0357574 9.00512 0.105183 8.8803C0.174608 8.75549 0.274918 8.65059 0.396504 8.57566Z"
+                                            fill="#1F1F1F" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_649_649">
+                                            <rect width="52" height="52" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <h2 class="fm-poppins fw-md fs-md mb-4">Build</h2>
+                            <p class="fm-poppins fs-xsm fw-sm max-w-332 text-justify">Define your home need. Zillion is
+                                a
+                                wealth
+                                Container
+                                platform. It
+                                lets you set-up and deploy
+                                complex legal entities such as funds ans SPVs inhours with a few clicks
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- =======Section Absoulte End======== -->
+            <div class="container mt-20">
+                <div class="row flex-xl-row flex-column-reverse">
+                    <div class="col-xl-7 col-12">
+                        <h2 class="fm-poppins fs-lg fw-lg text-justify mb-3 max-w-239">Funds & SPVs
+                            made simple
+                        </h2>
+                        <p class="fm-poppins fs-xsm fw-sm text-justify mb-5">Zillion is a wealth Container platform. It
+                            lets
+                            you
+                            set-up and deploy complex legal entities such
+                            as Funds and SPVs in hours with a few clicks. From initial structureing to NAV calculation,
+                            it
+                            is a fully integrated, one-stop shop platform catering for all your needs.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6 mb-5">
+                                <div class="d-flex align-items-center">
+                                    <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_649_851)">
+                                                <path
+                                                    d="M15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0V0ZM8.4375 14.0625C8.18886 14.0625 7.9504 14.1613 7.77459 14.3371C7.59877 14.5129 7.5 14.7514 7.5 15C7.5 15.2486 7.59877 15.4871 7.77459 15.6629C7.9504 15.8387 8.18886 15.9375 8.4375 15.9375H19.2994L15.2738 19.9613C15.1866 20.0484 15.1174 20.1519 15.0703 20.2658C15.0231 20.3797 14.9988 20.5017 14.9988 20.625C14.9988 20.7483 15.0231 20.8703 15.0703 20.9842C15.1174 21.0981 15.1866 21.2016 15.2738 21.2887C15.3609 21.3759 15.4644 21.4451 15.5783 21.4922C15.6922 21.5394 15.8142 21.5637 15.9375 21.5637C16.0608 21.5637 16.1828 21.5394 16.2967 21.4922C16.4106 21.4451 16.5141 21.3759 16.6012 21.2887L22.2262 15.6637C22.3136 15.5767 22.3828 15.4732 22.4301 15.3593C22.4773 15.2454 22.5017 15.1233 22.5017 15C22.5017 14.8767 22.4773 14.7546 22.4301 14.6407C22.3828 14.5268 22.3136 14.4233 22.2262 14.3363L16.6012 8.71125C16.5141 8.62408 16.4106 8.55494 16.2967 8.50777C16.1828 8.4606 16.0608 8.43632 15.9375 8.43632C15.8142 8.43632 15.6922 8.4606 15.5783 8.50777C15.4644 8.55494 15.3609 8.62408 15.2738 8.71125C15.1866 8.79842 15.1174 8.90189 15.0703 9.01578C15.0231 9.12967 14.9988 9.25173 14.9988 9.375C14.9988 9.49827 15.0231 9.62033 15.0703 9.73422C15.1174 9.84811 15.1866 9.95158 15.2738 10.0387L19.2994 14.0625H8.4375Z"
+                                                    fill="black" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_649_851">
+                                                    <rect width="30" height="30" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                    <h2 class="fm-poppins fs-sm fw-md mb-0 ms-4">Transactional Banking</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-md-end justify-content-start mb-5">
+                                <div class="d-flex align-items-center me-4 pe-4">
+                                    <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_649_851)">
+                                                <path
+                                                    d="M15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0V0ZM8.4375 14.0625C8.18886 14.0625 7.9504 14.1613 7.77459 14.3371C7.59877 14.5129 7.5 14.7514 7.5 15C7.5 15.2486 7.59877 15.4871 7.77459 15.6629C7.9504 15.8387 8.18886 15.9375 8.4375 15.9375H19.2994L15.2738 19.9613C15.1866 20.0484 15.1174 20.1519 15.0703 20.2658C15.0231 20.3797 14.9988 20.5017 14.9988 20.625C14.9988 20.7483 15.0231 20.8703 15.0703 20.9842C15.1174 21.0981 15.1866 21.2016 15.2738 21.2887C15.3609 21.3759 15.4644 21.4451 15.5783 21.4922C15.6922 21.5394 15.8142 21.5637 15.9375 21.5637C16.0608 21.5637 16.1828 21.5394 16.2967 21.4922C16.4106 21.4451 16.5141 21.3759 16.6012 21.2887L22.2262 15.6637C22.3136 15.5767 22.3828 15.4732 22.4301 15.3593C22.4773 15.2454 22.5017 15.1233 22.5017 15C22.5017 14.8767 22.4773 14.7546 22.4301 14.6407C22.3828 14.5268 22.3136 14.4233 22.2262 14.3363L16.6012 8.71125C16.5141 8.62408 16.4106 8.55494 16.2967 8.50777C16.1828 8.4606 16.0608 8.43632 15.9375 8.43632C15.8142 8.43632 15.6922 8.4606 15.5783 8.50777C15.4644 8.55494 15.3609 8.62408 15.2738 8.71125C15.1866 8.79842 15.1174 8.90189 15.0703 9.01578C15.0231 9.12967 14.9988 9.25173 14.9988 9.375C14.9988 9.49827 15.0231 9.62033 15.0703 9.73422C15.1174 9.84811 15.1866 9.95158 15.2738 10.0387L19.2994 14.0625H8.4375Z"
+                                                    fill="black" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_649_851">
+                                                    <rect width="30" height="30" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                    <h2 class="fm-poppins fs-sm fw-md mb-0 ms-4">Fund Accounting</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5">
+                                <div class="d-flex align-items-center">
+                                    <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_649_851)">
+                                                <path
+                                                    d="M15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0V0ZM8.4375 14.0625C8.18886 14.0625 7.9504 14.1613 7.77459 14.3371C7.59877 14.5129 7.5 14.7514 7.5 15C7.5 15.2486 7.59877 15.4871 7.77459 15.6629C7.9504 15.8387 8.18886 15.9375 8.4375 15.9375H19.2994L15.2738 19.9613C15.1866 20.0484 15.1174 20.1519 15.0703 20.2658C15.0231 20.3797 14.9988 20.5017 14.9988 20.625C14.9988 20.7483 15.0231 20.8703 15.0703 20.9842C15.1174 21.0981 15.1866 21.2016 15.2738 21.2887C15.3609 21.3759 15.4644 21.4451 15.5783 21.4922C15.6922 21.5394 15.8142 21.5637 15.9375 21.5637C16.0608 21.5637 16.1828 21.5394 16.2967 21.4922C16.4106 21.4451 16.5141 21.3759 16.6012 21.2887L22.2262 15.6637C22.3136 15.5767 22.3828 15.4732 22.4301 15.3593C22.4773 15.2454 22.5017 15.1233 22.5017 15C22.5017 14.8767 22.4773 14.7546 22.4301 14.6407C22.3828 14.5268 22.3136 14.4233 22.2262 14.3363L16.6012 8.71125C16.5141 8.62408 16.4106 8.55494 16.2967 8.50777C16.1828 8.4606 16.0608 8.43632 15.9375 8.43632C15.8142 8.43632 15.6922 8.4606 15.5783 8.50777C15.4644 8.55494 15.3609 8.62408 15.2738 8.71125C15.1866 8.79842 15.1174 8.90189 15.0703 9.01578C15.0231 9.12967 14.9988 9.25173 14.9988 9.375C14.9988 9.49827 15.0231 9.62033 15.0703 9.73422C15.1174 9.84811 15.1866 9.95158 15.2738 10.0387L19.2994 14.0625H8.4375Z"
+                                                    fill="black" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_649_851">
+                                                    <rect width="30" height="30" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                    <h2 class="fm-poppins fs-sm fw-md mb-0 ms-4">Fund & SPV Structuring</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-md-end justify-content-start mb-5">
+                                <div class="d-flex align-items-center">
+                                    <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_649_851)">
+                                                <path
+                                                    d="M15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0V0ZM8.4375 14.0625C8.18886 14.0625 7.9504 14.1613 7.77459 14.3371C7.59877 14.5129 7.5 14.7514 7.5 15C7.5 15.2486 7.59877 15.4871 7.77459 15.6629C7.9504 15.8387 8.18886 15.9375 8.4375 15.9375H19.2994L15.2738 19.9613C15.1866 20.0484 15.1174 20.1519 15.0703 20.2658C15.0231 20.3797 14.9988 20.5017 14.9988 20.625C14.9988 20.7483 15.0231 20.8703 15.0703 20.9842C15.1174 21.0981 15.1866 21.2016 15.2738 21.2887C15.3609 21.3759 15.4644 21.4451 15.5783 21.4922C15.6922 21.5394 15.8142 21.5637 15.9375 21.5637C16.0608 21.5637 16.1828 21.5394 16.2967 21.4922C16.4106 21.4451 16.5141 21.3759 16.6012 21.2887L22.2262 15.6637C22.3136 15.5767 22.3828 15.4732 22.4301 15.3593C22.4773 15.2454 22.5017 15.1233 22.5017 15C22.5017 14.8767 22.4773 14.7546 22.4301 14.6407C22.3828 14.5268 22.3136 14.4233 22.2262 14.3363L16.6012 8.71125C16.5141 8.62408 16.4106 8.55494 16.2967 8.50777C16.1828 8.4606 16.0608 8.43632 15.9375 8.43632C15.8142 8.43632 15.6922 8.4606 15.5783 8.50777C15.4644 8.55494 15.3609 8.62408 15.2738 8.71125C15.1866 8.79842 15.1174 8.90189 15.0703 9.01578C15.0231 9.12967 14.9988 9.25173 14.9988 9.375C14.9988 9.49827 15.0231 9.62033 15.0703 9.73422C15.1174 9.84811 15.1866 9.95158 15.2738 10.0387L19.2994 14.0625H8.4375Z"
+                                                    fill="black" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_649_851">
+                                                    <rect width="30" height="30" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                    <h2 class="fm-poppins fs-sm fw-md mb-0 ms-4">Investors Onboarding</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5">
+                                <div class="d-flex align-items-center">
+                                    <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_649_851)">
+                                                <path
+                                                    d="M15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0V0ZM8.4375 14.0625C8.18886 14.0625 7.9504 14.1613 7.77459 14.3371C7.59877 14.5129 7.5 14.7514 7.5 15C7.5 15.2486 7.59877 15.4871 7.77459 15.6629C7.9504 15.8387 8.18886 15.9375 8.4375 15.9375H19.2994L15.2738 19.9613C15.1866 20.0484 15.1174 20.1519 15.0703 20.2658C15.0231 20.3797 14.9988 20.5017 14.9988 20.625C14.9988 20.7483 15.0231 20.8703 15.0703 20.9842C15.1174 21.0981 15.1866 21.2016 15.2738 21.2887C15.3609 21.3759 15.4644 21.4451 15.5783 21.4922C15.6922 21.5394 15.8142 21.5637 15.9375 21.5637C16.0608 21.5637 16.1828 21.5394 16.2967 21.4922C16.4106 21.4451 16.5141 21.3759 16.6012 21.2887L22.2262 15.6637C22.3136 15.5767 22.3828 15.4732 22.4301 15.3593C22.4773 15.2454 22.5017 15.1233 22.5017 15C22.5017 14.8767 22.4773 14.7546 22.4301 14.6407C22.3828 14.5268 22.3136 14.4233 22.2262 14.3363L16.6012 8.71125C16.5141 8.62408 16.4106 8.55494 16.2967 8.50777C16.1828 8.4606 16.0608 8.43632 15.9375 8.43632C15.8142 8.43632 15.6922 8.4606 15.5783 8.50777C15.4644 8.55494 15.3609 8.62408 15.2738 8.71125C15.1866 8.79842 15.1174 8.90189 15.0703 9.01578C15.0231 9.12967 14.9988 9.25173 14.9988 9.375C14.9988 9.49827 15.0231 9.62033 15.0703 9.73422C15.1174 9.84811 15.1866 9.95158 15.2738 10.0387L19.2994 14.0625H8.4375Z"
+                                                    fill="black" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_649_851">
+                                                    <rect width="30" height="30" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                    <h2 class="fm-poppins fs-sm fw-md mb-0 ms-4">Legal Documentation</h2>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5 d-flex justify-content-md-end justify-content-start">
+                                <div class="d-flex align-items-center me-4 pe-2">
+                                    <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_649_851)">
+                                                <path
+                                                    d="M15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0V0ZM8.4375 14.0625C8.18886 14.0625 7.9504 14.1613 7.77459 14.3371C7.59877 14.5129 7.5 14.7514 7.5 15C7.5 15.2486 7.59877 15.4871 7.77459 15.6629C7.9504 15.8387 8.18886 15.9375 8.4375 15.9375H19.2994L15.2738 19.9613C15.1866 20.0484 15.1174 20.1519 15.0703 20.2658C15.0231 20.3797 14.9988 20.5017 14.9988 20.625C14.9988 20.7483 15.0231 20.8703 15.0703 20.9842C15.1174 21.0981 15.1866 21.2016 15.2738 21.2887C15.3609 21.3759 15.4644 21.4451 15.5783 21.4922C15.6922 21.5394 15.8142 21.5637 15.9375 21.5637C16.0608 21.5637 16.1828 21.5394 16.2967 21.4922C16.4106 21.4451 16.5141 21.3759 16.6012 21.2887L22.2262 15.6637C22.3136 15.5767 22.3828 15.4732 22.4301 15.3593C22.4773 15.2454 22.5017 15.1233 22.5017 15C22.5017 14.8767 22.4773 14.7546 22.4301 14.6407C22.3828 14.5268 22.3136 14.4233 22.2262 14.3363L16.6012 8.71125C16.5141 8.62408 16.4106 8.55494 16.2967 8.50777C16.1828 8.4606 16.0608 8.43632 15.9375 8.43632C15.8142 8.43632 15.6922 8.4606 15.5783 8.50777C15.4644 8.55494 15.3609 8.62408 15.2738 8.71125C15.1866 8.79842 15.1174 8.90189 15.0703 9.01578C15.0231 9.12967 14.9988 9.25173 14.9988 9.375C14.9988 9.49827 15.0231 9.62033 15.0703 9.73422C15.1174 9.84811 15.1866 9.95158 15.2738 10.0387L19.2994 14.0625H8.4375Z"
+                                                    fill="black" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_649_851">
+                                                    <rect width="30" height="30" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                    <h2 class="fm-poppins fs-sm fw-md mb-0 ms-4">Online Dashboard</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-12 mb-5 mb-xl-0">
+                        <div class="">
+                            <img class="w-100 width-80" src="/assets/img/png/section-3-money-bulb.png" alt="money-bulb">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- ====Section Third===== -->
+    <section class="py-5 bg-color-primary">
+        <div class="container">
+            <div class="d-flex justify-content-center mb-5">
+                <h2 class="fs-lg fw-lg fm-poppins max-w-745 text-center">We believe that strong managment team is
+                    critical to an
+                    investment’s success
+                </h2>
+            </div>
+            <div class="row">
+                <div
+                    class="col-xl-4 col-lg-6 col-12 mb-4 mb-lg-0 mb-md-4 d-flex align-items-center justify-content-center flex-column">
+                    <div class="align-top">
+                        <img class="align-items-baseline" src="/assets/img/svg/s7-superman.svg" alt="superman">
+                    </div>
+                    <h2 class="fm-poppins fs-sm fw-lg mb-4 mt-5 text-center">Strong Fundamentals</h2>
+                    <p class="fm-poppins fw-sm fs-xsm color-secondary text-center mb-0">Focus on bussiness with strong
+                        fundementals that trade at value multiple where can drive
+                        risk-return outcomes</p>
+                </div>
+                <div
+                    class="col-xl-4 col-lg-6 col-12 mb-4 mb-lg-0 mb-md-4 d-flex align-items-center justify-content-center flex-column">
+                    <div class="pb-3 align-middle mt-4">
+                        <img class="" src="/assets/img/svg/s7-superman-2.svg" alt="superman">
+                    </div>
+                    <h2 class="fm-poppins fs-sm fw-lg mb-4 mt-5 text-center">First of Capital Institutional</h2>
+                    <p class="fm-poppins fw-sm fs-xsm color-secondary text-center">Seek out opportunities to
+                        professionalize
+                        and institutionalize bussiness with prior owners and managers.</p>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-12 d-flex align-items-center justify-content-center flex-column">
+                    <div class=" align-top">
+                        <img class="" src="/assets/img/svg/s7-superman.svg" alt="superman">
+                    </div>
+                    <h2 class="fm-poppins fs-sm fw-lg mb-4 mt-5 text-center">Control Oriented Investments</h2>
+                    <p class="fm-poppins fw-sm fs-xsm color-secondary text-center mb-0">Primarily business services,
+                        niche
+                        consumers, andmiche manufacturing sectors</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======Section Forth======== -->
+    <section class="bg-clor pb-5 overflow-hidden">
+        <div class="container pb-5">
+            <div class="row flex-xl-row flex-column-reverse py-5">
+                <div class=" col-12 col-xl-7 py-5">
+                    <h1 class="h-1 pt-5 f-sm-size">Helping business move the Sponsult forward</h1>
+                    <p class="par text-lg-justify  pt-3">Zillion is well positioned to profitability investment your
+                        money and grow your
+                        business. We help
+                        progress the zillion for our investors and managment team partners by providing middle market
+                        companies with financial, operational and strategic resources to create long-term value.</p>
+                </div>
+                <div class=" col-12 col-xl-5">
+                    <div class="transform-img-a">
+                        <img class=" p-3 hover w-100" src="/assets/img/svg/img-1.svg" alt="img-1">
+                    </div>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-12 col-xl-5">
+                    <div class="transform-img-b">
+                        <img class="p-3 hover w-100" src="/assets/img/svg/img-2.png" alt="">
+                    </div>
+                </div>
+                <div class=" col-12 col-xl-7">
+                    <h1 class="h-1 pt-5 f-sm-size">We take a partnership approach to backing founders</h1>
+                    <p class="par text-lg-justify pt-3">Our 20-year track record of helping talented managers create
+                        long-term
+                        equity
+                        value for business
+                        like
+                        yours is distinguished and referenceable. We find value in partnering with seasoned industry
+                        excecutives, and have utilized experts like you throughout our careers.</p>
+                </div>
+            </div>
+            <div class="row flex-xl-row flex-column-reverse py-5 mb-5">
+                <div class="col-12 col-xl-7">
+                    <h1 class="h-1 pt-5 f-sm-size">Core ideology fundemamental value & purpose</h1>
+                    <p class="par text-lg-justify pt-3">The organization's essential and enduring tenets a small set of
+                        general guiding
+                        principles; not
+                        to be
+                        concluded with specific cultural or operating practices; not to be compromised for financial
+                        gain or
+                        short term expedency. The organization's fundemental reasons for existence beyond just making
+                        money
+                        a perpetual guiding star on horizon; not to be confused with specific goals or business
+                        strategies.
+                    </p>
+                </div>
+                <div class="col-12 col-xl-5 mb-5">
+                    <div class="transform-img-a">
+                        <img class=" p-3 hover w-100 mb-5" src="/assets/img/svg/img-3.png" alt="img-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========Section Fifth========== -->
+    <section class="bg-img pb-5">
+        <div class="container">
+            <div class="bg-white trasform mb-lg-0 mb-5">
+                <div class="d-flex justify-content-center">
+                    <h1 class="head my-5 pb-5 text-center">Configurable investment entities</h1>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center flex-column align-items-center">
+                        <span class="hover">
+                            <svg width="57" height="56" viewBox="0 0 57 56" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M55.6656 38.6437C55.9448 39.095 56.0207 39.6307 55.8768 40.1339C55.733 40.6372 55.381 41.067 54.8978 41.3295L29.481 55.128C29.1609 55.306 28.7949 55.4 28.422 55.4C28.049 55.4 27.6831 55.306 27.3629 55.128L1.94611 41.3295C1.50716 41.0479 1.19846 40.6226 1.08161 40.1385C0.964769 39.6544 1.04838 39.1471 1.31576 38.7179C1.58314 38.2886 2.01462 37.969 2.52407 37.8228C3.03352 37.6766 3.58348 37.7146 4.06418 37.9291L28.422 51.1363L52.7798 37.9291C53.2647 37.6694 53.8403 37.5987 54.381 37.7326C54.9217 37.8665 55.3835 38.194 55.6656 38.6437ZM52.7798 26.1018L28.422 39.309L4.06418 26.1018C3.58348 25.8873 3.03352 25.8493 2.52407 25.9955C2.01462 26.1417 1.58314 26.4613 1.31576 26.8906C1.04838 27.3198 0.964769 27.8271 1.08161 28.3112C1.19846 28.7953 1.50716 29.2206 1.94611 29.5022L27.3629 43.3007C27.6831 43.4787 28.049 43.5727 28.422 43.5727C28.7949 43.5727 29.1609 43.4787 29.481 43.3007L54.8978 29.5022C55.1612 29.3846 55.3956 29.2177 55.5863 29.0117C55.7769 28.8058 55.9198 28.5654 56.0059 28.3057C56.0919 28.0459 56.1193 27.7724 56.0864 27.5023C56.0534 27.2322 55.9607 26.9714 55.8143 26.7362C55.6678 26.501 55.4706 26.2966 55.2351 26.1358C54.9997 25.9749 54.731 25.8611 54.446 25.8015C54.1611 25.742 53.8659 25.7379 53.5792 25.7896C53.2924 25.8413 53.0202 25.9476 52.7798 26.1018ZM1.94611 17.6749L27.3629 31.4734C27.6831 31.6514 28.049 31.7454 28.422 31.7454C28.7949 31.7454 29.1609 31.6514 29.481 31.4734L54.8978 17.6749C55.2163 17.501 55.4804 17.2526 55.664 16.9543C55.8475 16.6561 55.944 16.3184 55.944 15.9747C55.944 15.631 55.8475 15.2933 55.664 14.9951C55.4804 14.6969 55.2163 14.4485 54.8978 14.2745L29.481 0.476041C29.1618 0.295457 28.7955 0.199951 28.422 0.199951C28.0484 0.199951 27.6821 0.295457 27.3629 0.476041L1.94611 14.2745C1.6276 14.4485 1.36349 14.6969 1.17997 14.9951C0.996451 15.2933 0.899902 15.631 0.899902 15.9747C0.899902 16.3184 0.996451 16.6561 1.17997 16.9543C1.36349 17.2526 1.6276 17.501 1.94611 17.6749Z"
+                                    fill="black" />
+                            </svg>
+                        </span>
+                        <h2 class="h-2 pt-5">Structure your fund</h2>
+
+                        <p class="par-2 pt-2 pb-5 text-center">Structure your fund, tailor your term, structure your
+                            share
+                            classes, on-board
+                            and
+                            raise from
+                            investors, manage your redemptions, get NAV report- all with clicks.</p>
+
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex justify-content-center flex-column align-items-center">
+                        <span class="hover">
+                            <svg width="51" height="53" viewBox="0 0 51 53" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M25.5576 0.625C19.0644 0.625 13.1477 2.76975 9.64735 4.52206C9.3311 4.68019 9.03642 4.83544 8.76185 4.98494C8.21848 5.28106 7.7556 5.55706 7.3876 5.8L11.3695 11.6621L13.244 12.4082C20.5695 16.104 30.3934 16.104 37.7203 12.4082L39.8478 11.3042L43.614 5.8C42.8338 5.29112 42.0224 4.83165 41.1847 4.42431C37.703 2.69069 31.9286 0.625 25.5576 0.625ZM16.2958 7.2605C14.8858 6.99665 13.4931 6.64716 12.1256 6.214C15.4045 4.75781 20.292 3.2125 25.5562 3.2125C29.2031 3.2125 32.6517 3.95425 35.5037 4.89438C32.1615 5.36444 28.595 6.16225 25.1968 7.14406C22.523 7.91744 19.3979 7.83406 16.2958 7.2605ZM39.2383 14.54L38.8861 14.7183C30.826 18.7835 20.1368 18.7835 12.0767 14.7183L11.7432 14.5486C-0.363396 27.8326 -9.60652 52.3707 25.5576 52.3707C60.7189 52.3707 51.25 27.374 39.2383 14.54ZM24.0626 26.5C23.3001 26.5 22.5688 26.8029 22.0297 27.3421C21.4905 27.8812 21.1876 28.6125 21.1876 29.375C21.1876 30.1375 21.4905 30.8688 22.0297 31.4079C22.5688 31.9471 23.3001 32.25 24.0626 32.25V26.5ZM26.9376 23.625V22.1875H24.0626V23.625C22.5376 23.625 21.0751 24.2308 19.9967 25.3091C18.9184 26.3875 18.3126 27.85 18.3126 29.375C18.3126 30.9 18.9184 32.3625 19.9967 33.4409C21.0751 34.5192 22.5376 35.125 24.0626 35.125V40.875C23.468 40.8752 22.888 40.691 22.4025 40.3478C21.917 40.0046 21.5498 39.5193 21.3515 38.9588C21.2245 38.5993 20.9599 38.3049 20.616 38.1405C20.272 37.976 19.8767 37.955 19.5172 38.0819C19.1577 38.2089 18.8634 38.4735 18.6989 38.8175C18.5345 39.1614 18.5134 39.5567 18.6404 39.9162C19.0369 41.0374 19.7712 42.0081 20.7423 42.6947C21.7133 43.3813 22.8733 43.75 24.0626 43.75V45.1875H26.9376V43.75C28.4626 43.75 29.9251 43.1442 31.0035 42.0659C32.0818 40.9875 32.6876 39.525 32.6876 38C32.6876 36.475 32.0818 35.0125 31.0035 33.9341C29.9251 32.8558 28.4626 32.25 26.9376 32.25V26.5C28.1882 26.5 29.2534 27.2978 29.6502 28.4162C29.709 28.5992 29.804 28.7685 29.9294 28.9141C30.0549 29.0597 30.2082 29.1787 30.3805 29.2641C30.5527 29.3494 30.7403 29.3993 30.9322 29.4109C31.124 29.4224 31.3162 29.3954 31.4975 29.3313C31.6787 29.2673 31.8453 29.1676 31.9873 29.0381C32.1293 28.9085 32.2439 28.7519 32.3243 28.5773C32.4047 28.4027 32.4493 28.2138 32.4554 28.0216C32.4615 27.8295 32.429 27.6382 32.3599 27.4588C31.9633 26.3376 31.229 25.3669 30.2579 24.6803C29.2869 23.9937 28.1269 23.625 26.9376 23.625ZM26.9376 35.125V40.875C27.7001 40.875 28.4314 40.5721 28.9705 40.0329C29.5097 39.4938 29.8126 38.7625 29.8126 38C29.8126 37.2375 29.5097 36.5062 28.9705 35.9671C28.4314 35.4279 27.7001 35.125 26.9376 35.125Z"
+                                    fill="black" />
+                            </svg>
+                        </span>
+                        <h2 class="h-2 pt-5">Launch your hedge fund</h2>
+                        <p class="par-2 pt-2 pb-5 text-center">Whether co-investing in startups, lending money to SMEs
+                            or
+                            acquiring football
+                            clubs, we are the
+                            perfect solution to structure your deal Instantly.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="row mb-5">
+                    <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="h-n1 hover">480</h3>
+                        <p class="par-3 text-center">Wealth Containers running on ZILLION</p>
+                    </div>
+                    <div
+                        class="col-12 col-md-6 col-lg-4  d-flex flex-column align-items-center justify-content-center ">
+                        <h3 class="h-n1 hover">340</h3>
+                        <p class="par-3 text-center">Investors on-boarded on the platform</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4  d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="h-n1 hover">$16k</h3>
+                        <p class="par-3 text-center">Invested in Wealth containers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =====Section Sixth======== -->
+    <section class="py-5">
+        <div class="container">
+            <div class="d-flex justify-content-center text-center pt-5 pb-3">
+                <h1 class="h-3">We are champion who build innovative companies</h1>
+            </div>
+            <div class="d-flex justify-content-center pb-5">
+                <button class="btn-1">Contact Us</button>
+            </div>
+        </div>
+    </section>
+    <!-- ========Footer============== -->
+    <footer class="bg-black py-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="hover pb-4">
+                        <span>
+                            <svg width="56" height="45" viewBox="0 0 56 45" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M48.973 0L55.08 16.8204L49.5077 18.9036L46.4452 10.4685L27.7519 41.8398L17.3947 23.823L5.11856 45L0 41.9447L17.4161 11.9009L27.8435 30.0399L40.8884 8.14768L32.197 10.2476L30.8215 4.38547L48.973 0Z"
+                                    fill="white" />
+                            </svg>
+                        </span>
+                        <img src="/assets/img/png/Zillion.png" alt="">
+                    </div>
+
+                    <div class="pb-3">
+                        <a class="hover " href="http://facebook.com">
+                            <svg width="30" height="29" viewBox="0 0 30 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.2" x="-0.000488281" width="30" height="29" rx="5" fill="white" />
+                                <path
+                                    d="M18.8282 6.81803H20.9995V3.16103C19.9482 3.05218 18.8919 2.99844 17.8349 3.00003C14.6934 3.00003 12.5452 4.90903 12.5452 8.40503V11.418H8.99951V15.512H12.5452V26H16.7955V15.512H20.3296L20.8609 11.418H16.7955V8.80753C16.7955 7.60003 17.1189 6.81803 18.8282 6.81803Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a class="hover ps-2" href="http://instagram.com">
+                            <svg width="31" height="29" viewBox="0 0 31 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.2" x="0.833496" width="29.901" height="29" rx="5" fill="white" />
+                                <path
+                                    d="M22.4031 6.979C22.1311 6.979 21.8651 7.05994 21.6389 7.21157C21.4127 7.36321 21.2365 7.57873 21.1323 7.8309C21.0282 8.08306 21.001 8.36053 21.0541 8.62822C21.1071 8.89592 21.2381 9.14181 21.4305 9.33481C21.6229 9.5278 21.8679 9.65924 22.1348 9.71248C22.4016 9.76573 22.6781 9.7384 22.9295 9.63395C23.1808 9.5295 23.3956 9.35263 23.5467 9.12569C23.6979 8.89875 23.7785 8.63194 23.7785 8.359C23.7785 7.993 23.6336 7.64199 23.3757 7.38319C23.1177 7.12439 22.7679 6.979 22.4031 6.979ZM27.6756 9.762C27.6533 8.80784 27.4752 7.86381 27.1484 6.9675C26.8569 6.2006 26.4033 5.50617 25.8188 4.932C25.2512 4.34254 24.5575 3.8903 23.79 3.6095C22.899 3.27158 21.957 3.08879 21.0047 3.069C19.7897 3 19.4 3 16.2824 3C13.1647 3 12.775 3 11.56 3.069C10.6077 3.08879 9.66571 3.27158 8.77472 3.6095C8.00868 3.89315 7.31552 4.34499 6.74594 4.932C6.15842 5.50145 5.70768 6.19751 5.4278 6.9675C5.091 7.86144 4.90881 8.80653 4.88908 9.762C4.82031 10.981 4.82031 11.372 4.82031 14.5C4.82031 17.628 4.82031 18.019 4.88908 19.238C4.90881 20.1935 5.091 21.1386 5.4278 22.0325C5.70768 22.8025 6.15842 23.4985 6.74594 24.068C7.31552 24.655 8.00868 25.1069 8.77472 25.3905C9.66571 25.7284 10.6077 25.9112 11.56 25.931C12.775 26 13.1647 26 16.2824 26C19.4 26 19.7897 26 21.0047 25.931C21.957 25.9112 22.899 25.7284 23.79 25.3905C24.5575 25.1097 25.2512 24.6575 25.8188 24.068C26.4059 23.496 26.8599 22.8009 27.1484 22.0325C27.4752 21.1362 27.6533 20.1922 27.6756 19.238C27.6756 18.019 27.7444 17.628 27.7444 14.5C27.7444 11.372 27.7444 10.981 27.6756 9.762ZM25.6125 19.1C25.6041 19.83 25.4723 20.5533 25.2228 21.239C25.0397 21.7395 24.7458 22.1917 24.3631 22.5615C23.9913 22.9416 23.5415 23.2359 23.045 23.424C22.3615 23.6744 21.6406 23.8066 20.913 23.815C19.7668 23.8725 19.3427 23.884 16.3282 23.884C13.3137 23.884 12.8896 23.884 11.7434 23.815C10.9879 23.8292 10.2357 23.7125 9.51975 23.47C9.04497 23.2723 8.6158 22.9787 8.25893 22.6075C7.87849 22.2381 7.58822 21.7855 7.41074 21.285C7.1309 20.5894 6.97569 19.8497 6.95225 19.1C6.95225 17.95 6.88348 17.5245 6.88348 14.5C6.88348 11.4755 6.88348 11.05 6.95225 9.9C6.95739 9.15371 7.09318 8.41414 7.35343 7.715C7.55521 7.2296 7.86494 6.79691 8.25893 6.45C8.60716 6.05459 9.03753 5.74056 9.51975 5.53C10.2184 5.27705 10.9548 5.14484 11.6975 5.139C12.8437 5.139 13.2678 5.07 16.2824 5.07C19.2969 5.07 19.721 5.07 20.8672 5.139C21.5948 5.14737 22.3156 5.27958 22.9991 5.53C23.52 5.72395 23.9875 6.03927 24.3631 6.45C24.7387 6.80326 25.0322 7.23514 25.2228 7.715C25.4775 8.41527 25.6094 9.15455 25.6125 9.9C25.6698 11.05 25.6812 11.4755 25.6812 14.5C25.6812 17.5245 25.6698 17.95 25.6125 19.1ZM16.2824 8.6005C15.1199 8.60277 13.9842 8.9507 13.0187 9.60033C12.0533 10.25 11.3014 11.1721 10.8581 12.2503C10.4148 13.3285 10.3 14.5143 10.5282 15.658C10.7564 16.8016 11.3173 17.8517 12.1401 18.6756C12.9629 19.4995 14.0106 20.0603 15.1509 20.287C16.2912 20.5137 17.4729 20.3962 18.5467 19.9493C19.6204 19.5025 20.5381 18.7463 21.1837 17.7764C21.8293 16.8065 22.1738 15.6663 22.1739 14.5C22.1754 13.7239 22.0239 12.9551 21.7283 12.2379C21.4326 11.5207 20.9985 10.8692 20.451 10.321C19.9034 9.77269 19.2533 9.33843 18.5379 9.04317C17.8225 8.74791 17.0559 8.59747 16.2824 8.6005ZM16.2824 18.3295C15.5275 18.3295 14.7895 18.1049 14.1618 17.6841C13.5341 17.2633 13.0449 16.6652 12.756 15.9655C12.4671 15.2657 12.3916 14.4958 12.5388 13.7529C12.6861 13.0101 13.0496 12.3277 13.5834 11.7921C14.1172 11.2566 14.7973 10.8918 15.5377 10.7441C16.2781 10.5963 17.0456 10.6722 17.743 10.962C18.4404 11.2518 19.0366 11.7427 19.456 12.3724C19.8754 13.0022 20.0992 13.7426 20.0992 14.5C20.0992 15.0029 20.0005 15.5009 19.8087 15.9655C19.6169 16.4301 19.3357 16.8523 18.9813 17.2079C18.6269 17.5635 18.2061 17.8455 17.743 18.038C17.2799 18.2304 16.7836 18.3295 16.2824 18.3295Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <a class="hover ps-2" href="http://linkdin.com">
+                            <svg width="31" height="29" viewBox="0 0 31 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.2" x="0.668457" width="29.901" height="29" rx="5" fill="white" />
+                                <path
+                                    d="M4.65527 6.55556C4.65527 5.8148 4.91344 5.20369 5.42974 4.72222C5.94604 4.24073 6.61725 4 7.44334 4C8.25469 4 8.91112 4.23702 9.41269 4.71111C9.92899 5.2 10.1871 5.83702 10.1871 6.62222C10.1871 7.33333 9.93638 7.92591 9.43481 8.4C8.91851 8.88889 8.23993 9.13333 7.39908 9.13333H7.37696C6.56561 9.13333 5.90917 8.88889 5.40761 8.4C4.90604 7.91111 4.65527 7.29629 4.65527 6.55556ZM4.94293 26V11.1556H9.85524V26H4.94293ZM12.5769 26H17.4892V17.7111C17.4892 17.1926 17.5482 16.7926 17.6662 16.5111C17.8728 16.0074 18.1862 15.5815 18.6067 15.2333C19.0271 14.8852 19.5545 14.7111 20.1888 14.7111C21.841 14.7111 22.6671 15.8296 22.6671 18.0667V26H27.5794V17.4889C27.5794 15.2963 27.0631 13.6333 26.0304 12.5C24.9978 11.3667 23.6333 10.8 21.9369 10.8C20.0339 10.8 18.5513 11.6222 17.4892 13.2667V13.3111H17.4671L17.4892 13.2667V11.1556H12.5769C12.6064 11.6296 12.6212 13.1037 12.6212 15.5778C12.6212 18.0518 12.6064 21.5259 12.5769 26Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <a class="hover ps-2 " href="http://twitter.com">
+                            <svg width="31" height="29" viewBox="0 0 31 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.2" x="0.503418" width="29.901" height="29" rx="5" fill="white" />
+                                <path
+                                    d="M28.4113 6.51594C27.4373 6.93655 26.4074 7.21459 25.3534 7.34143C26.4653 6.68016 27.2986 5.63987 27.6986 4.41352C26.6537 5.03272 25.5099 5.46898 24.3168 5.70335C23.5194 4.84248 22.4574 4.26944 21.2976 4.0741C20.1377 3.87876 18.9455 4.07218 17.908 4.62401C16.8704 5.17584 16.0462 6.05487 15.5646 7.12324C15.083 8.19161 14.9712 9.38889 15.2469 10.5273C13.1341 10.4209 11.0675 9.87331 9.18119 8.92C7.29491 7.9667 5.63119 6.62905 4.29811 4.99394C3.83053 5.80675 3.58484 6.72724 3.58547 7.66389C3.58381 8.53373 3.79824 9.39048 4.20968 10.1579C4.62112 10.9252 5.21679 11.5794 5.94366 12.0622C5.09883 12.0393 4.27204 11.8137 3.53364 11.4044V11.4689C3.53997 12.6876 3.96899 13.8668 4.74813 14.8069C5.52726 15.747 6.60869 16.3904 7.80948 16.6282C7.34724 16.7682 6.86734 16.8421 6.3842 16.8475C6.04976 16.8436 5.71616 16.8134 5.3865 16.7572C5.72845 17.8056 6.39019 18.7218 7.27963 19.3783C8.16907 20.0349 9.24198 20.3991 10.3491 20.4203C8.47962 21.8846 6.17155 22.6838 3.79278 22.6904C3.35967 22.6918 2.9269 22.666 2.49707 22.613C4.92579 24.174 7.75611 25.0027 10.6471 24.9992C12.6421 25.0198 14.6212 24.6445 16.4689 23.8952C18.3165 23.1459 19.9957 22.0376 21.4082 20.6351C22.8208 19.2325 23.9384 17.5638 24.6959 15.7265C25.4534 13.8891 25.8354 11.92 25.8198 9.93399C25.8198 9.71472 25.8198 9.48255 25.8198 9.25038C26.8366 8.49558 27.7135 7.57028 28.4113 6.51594Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <h2 class="heading hover pb-3">Company</h2>
+                            <ul class="p-0 ">
+                                <li>
+                                    <a class="name pb-2" href="">Terms of service</a>
+                                </li>
+                                <li>
+                                    <a class="name pb-2" href="">Privacy policy</a>
+                                </li>
+                                <li>
+                                    <a class="name pb-2" href="">Legal notice</a>
+                                </li>
+                                <li>
+                                    <a class="name pb-2" href="">About</a>
+                                </li>
+                                <li>
+                                    <a class="name pb-2" href="">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <h2 class="heading hover pb-3">Resources</h2>
+                            <ul class="p-0">
+                                <li>
+                                    <a class="name pb-2" href="">Blog</a>
+                                </li>
+                                <li>
+                                    <a class="name pb-2" href="">Zillion. Connect</a>
+                                </li>
+                                <li>
+                                    <a class="name pb-2" href="">Zillion. Podcast</a>
+                                </li>
+                                <li>
+                                    <a class="name pb-2" href="">Help center</a>
+                                </li>
+                                <li>
+                                    <a class="name pb-2" href="">Security</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <h2 class="heading hover pb-3">Contact</h2>
+                            <ul class="p-0">
+                                <li>
+                                    <a class="name pb-2" href="">Contact us</a>
+                                </li>
+                                <li>
+                                    <a class="name pb-2" href="">Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line "></div>
+            <div class="d-lg-flex justify-content-lg-between pt-4">
+                <p class="name">© Zillion. 2022. All rights reserved</p>
+                <div class="d-flex">
+                    <p class="name ">Language & region: English (IN)</p>
+                    <span class="hover ps-2">
+                        <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.36163 9.53448C1.66589 9.83264 2.07748 10 2.50649 10C2.93551 10 3.3471 9.83264 3.65136 9.53448L9.48124 3.86739L15.2299 9.53448C15.5342 9.83264 15.9458 10 16.3748 10C16.8038 10 17.2154 9.83264 17.5196 9.53448C17.6719 9.38566 17.7927 9.2086 17.8751 9.01352C17.9576 8.81844 18 8.60919 18 8.39786C18 8.18652 17.9576 7.97728 17.8751 7.7822C17.7927 7.58712 17.6719 7.41006 17.5196 7.26124L10.6342 0.473535C10.4833 0.323488 10.3036 0.204393 10.1058 0.123119C9.90787 0.0418437 9.69561 -7.20957e-07 9.48124 -7.39569e-07C9.26686 -7.5818e-07 9.0546 0.0418436 8.85671 0.123119C8.65882 0.204393 8.47922 0.323487 8.32825 0.473535L1.36163 7.26124C1.20942 7.41006 1.08861 7.58712 1.00617 7.7822C0.923721 7.97728 0.881273 8.18652 0.881273 8.39786C0.881273 8.60919 0.923721 8.81843 1.00617 9.01352C1.08861 9.2086 1.20942 9.38565 1.36163 9.53448Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script>
+        const a = document.getElementById("nav")
+        function navresponsive() {
+            a.classList.toggle("show")
+            document.body.classList.add("overflow-hidden")
+        }
+    </script>
+</body>
+
+</html>
