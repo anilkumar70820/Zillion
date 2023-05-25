@@ -34,21 +34,11 @@
     color: #515151;
 }
 
-.boder {
-    background: #FFFFFF;
-    border-radius: 39px 0px 0px 0px;
-}
-
-.boder-2 {
-    background: #FFFFFF;
-    border-radius: 0px 39px 0px 0px;
-}
-
 .bg-clor {
     background: #F1F3F6;
 }
 
-.head {
+.tra .head {
     max-width: 422px;
     font-family: 'Poppins';
     font-style: normal;
@@ -76,6 +66,8 @@
     color: #515151;
 }
 
+
+
 .bg-img {
     background-image: url(/assets/img/png/bg-7.png);
     background-position: center;
@@ -84,11 +76,7 @@
 }
 
 .bg-white {
-    background-color: #FFFFFF;
-}
-
-.pos-absolute {
-    position: absolute;
+    background-color: #FFFFFF !important;
 }
 
 .h-n1 {
@@ -163,6 +151,7 @@
     border: 0.5px solid #FFFFFF;
 }
 
+
 .hover:hover {
     cursor: pointer;
 }
@@ -171,4 +160,12 @@
     .trasform {
         transform: translatey(-210px);
     }
+    .text-lg-justify{
+        text-align: justify;
+     }
 }
+@media (max-width:576px) {
+    .f-sm-size{
+      font-size: 24px;
+    }
+    }
