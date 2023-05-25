@@ -13,7 +13,7 @@
 
 <body>
     <!-- ====Section First With Header==== -->
-    <section class="bg-img-header min-vh-100 d-flex flex-column align-items-center">
+    <section class="bg-img-header min-vh-100 d-flex flex-column align-items-center" id="home">
         <div class="container">
             <header>
                 <nav class="d-flex justify-content-between py-4 p-0 align-items-center">
@@ -21,16 +21,16 @@
                     </a>
                     <ul class="d-flex align-items-center justify-content-center flex-lg-row flex-column gap-5 mb-0 sm-navbar"
                         id="nav">
-                        <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary" href="#">Home</a>
+                        <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary" href="#home">Home</a>
                         </li>
                         <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary"
-                                href="#">Services</a></li>
+                                href="#services">Services</a></li>
                         <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary"
-                                href="#">Investors</a></li>
-                        <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary" href="#">About
+                                href="#investors">Investors</a></li>
+                        <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary" href="#about">About
                                 Us</a></li>
                         <li><a onclick="navresponsive()" class="fm-poppins fs-sm fw-md color-primary btn-contact"
-                                href="#">Contact Us</a></li>
+                                href="#contactus">Contact Us</a></li>
                     </ul>
                     <button onclick="navresponsive()"
                         class="d-lg-none z-3 menu-button fs-sm fw-md fm-poppins">Menu</button>
@@ -50,7 +50,7 @@
         </div>
     </section>
     <!-- ====Second Second==== -->
-    <section class="position-relative">
+    <section class="position-relative" id="services">
         <section class="bg-color-secondary py-5">
             <!-- =====Section Absoulte===== -->
             <div class="container bg-color-primary box-shadow py-5 position-absoulte-sa">
@@ -279,7 +279,7 @@
         </section>
     </section>
     <!-- ====Section Third===== -->
-    <section class="py-5 bg-color-primary">
+    <section class="py-5 bg-color-primary" id="investers">
         <div class="container">
             <div class="d-flex justify-content-center mb-5">
                 <h2 class="fs-lg fw-lg fm-poppins max-w-745 text-center">We believe that strong managment team is
@@ -444,7 +444,7 @@
         </div>
     </section>
     <!-- =====Section Sixth======== -->
-    <section class="py-5">
+    <section class="py-5" id="contactus">
         <div class="container">
             <div class="d-flex justify-content-center text-center pt-5 pb-3">
                 <h1 class="h-3">We are champion who build innovative companies</h1>
@@ -455,7 +455,7 @@
         </div>
     </section>
     <!-- ========Footer============== -->
-    <footer class="bg-black py-5">
+    <footer class="bg-black py-5" id="about">
         <div class="container ">
             <div class="row">
                 <div class="col-12 col-lg-6">
