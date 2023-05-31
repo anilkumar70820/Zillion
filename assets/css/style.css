@@ -288,6 +288,7 @@
 
 
 .btn-1 {
+    border: 2px solid transparent;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -305,7 +306,7 @@
 .btn-1:hover {
     background-color: white;
     color: black;
-    border: 2px black solid;
+    border: 2px solid black;
     cursor: pointer;
 }
 
@@ -365,6 +366,12 @@
     .w-lg-100 {
         width: 100%;
     }
+    .mt-3-md{
+        margin-top: 30px;
+    }
+    .mb-3-md{
+        margin-bottom: 30px !important;
+    }
 }
 
 @media (max-width:992px) {
@@ -416,6 +423,7 @@
         --bg-color-primary: rgba(255, 255, 255, 1);
         --bg-color-secondary: #F1F3F6;
     }
+   
 }
 
 @media (max-width:768px) {
@@ -433,6 +441,10 @@
         --color-secondary: rgba(81, 81, 81, 1);
         --bg-color-primary: rgba(255, 255, 255, 1);
         --bg-color-secondary: #F1F3F6;
+    }
+
+    .f-md-size {
+        font-size: 24px;
     }
 }
 
