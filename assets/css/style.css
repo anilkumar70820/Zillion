@@ -31,7 +31,6 @@
     --color-secondary: rgba(81, 81, 81, 1);
     --bg-color-primary: rgba(255, 255, 255, 1);
     --bg-color-secondary: #F1F3F6;
-
 }
 
 .fs-xsm {
@@ -86,15 +85,25 @@
     background-color: var(--bg-color-secondary);
 }
 
-/* -----------Common Classes------------ */
+/* ==========Root End================ */
+/* =============Common Classes============== */
 .fm-poppins {
     font-family: "poppins", sans-serif;
 }
 
-.text-justify {
-    text-align: justify;
+.mt-10 {
+    margin-top: 10%;
 }
 
+.mt-15 {
+    margin-top: 15%;
+}
+
+.mb-15 {
+    margin-bottom: 35%;
+}
+
+/* ===========Common Classes End=========== */
 /* =============First Section With Header============ */
 .bg-img-header {
     background-image: url(/assets/img/png/header-bg.png);
@@ -108,6 +117,11 @@
     border-radius: 50px;
     padding: 13px 36px;
     background-color: rgba(207, 207, 207, 0.22);
+}
+
+.btn-contact:hover {
+    background-color: #FFFFFF;
+    color: black;
 }
 
 .btn-know-more {
@@ -150,26 +164,17 @@
     width: 100%;
 }
 
-/* =======Section Absoulte==== */
+/* ========First Section With Header End=========== */
+/* ======Section Second====== */
 .max-w-332 {
     max-width: 332px;
-}
-
-.box-shadow
-/* ======Section Second====== */
-
-.mt-10 {
-    margin-top: 10%;
-}
-
-.mt-20 {
-    margin-top: 20%;
 }
 
 .max-w-239 {
     max-width: 239px;
 }
 
+/* ==========Section Second End========= */
 /* ====Section Third===== */
 .max-w-745 {
     max-width: 745px;
@@ -179,6 +184,11 @@
     margin-top: 32px;
 }
 
+#services ul li {
+    background: url('/assets/img/svg/bi_arrow-right-circle-fill.svg') no-repeat left center;
+}
+
+/* ==========Section Third End=========== */
 .container-1 {
     max-width: 1110px;
     margin-right: auto;
@@ -236,8 +246,6 @@
     font-size: 16px;
     color: #515151;
 }
-
-
 
 .bg-img {
     background-image: url(/assets/img/png/bg-7.png);
@@ -340,10 +348,22 @@
         --fw-md: 500;
         --fw-lg: 600;
         --fw-xl: 700;
+        --color-primary: rgba(255, 255, 255, 1);
+        --color-secondary: rgba(81, 81, 81, 1);
+        --bg-color-primary: rgba(255, 255, 255, 1);
+        --bg-color-secondary: #F1F3F6;
     }
 
     .min-70vh {
-        min-height: 70vh;
+        min-height: 50vh;
+    }
+
+    .mb-sm-50 {
+        margin-bottom: -50px !important;
+    }
+
+    .w-lg-100 {
+        width: 100%;
     }
 }
 
@@ -354,9 +374,27 @@
         height: 100vh;
         left: -100%;
         top: 0;
-        background-color: violet;
+        backdrop-filter: blur(100px);
         transition: all 200ms linear;
         z-index: 3;
+    }
+
+    label[for="menuicon"] {
+        width: 35px;
+        height: 25px;
+        backdrop-filter: blur(100px);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 3;
+    }
+
+    label[for="menuicon"]>span {
+        width: 100%;
+        height: 4px;
+        background-color: white;
+
     }
 
     .show {
@@ -373,6 +411,10 @@
         --fw-md: 500;
         --fw-lg: 600;
         --fw-xl: 700;
+        --color-primary: rgba(255, 255, 255, 1);
+        --color-secondary: rgba(81, 81, 81, 1);
+        --bg-color-primary: rgba(255, 255, 255, 1);
+        --bg-color-secondary: #F1F3F6;
     }
 }
 
@@ -387,13 +429,17 @@
         --fw-md: 500;
         --fw-lg: 600;
         --fw-xl: 700;
+        --color-primary: rgba(255, 255, 255, 1);
+        --color-secondary: rgba(81, 81, 81, 1);
+        --bg-color-primary: rgba(255, 255, 255, 1);
+        --bg-color-secondary: #F1F3F6;
     }
 }
 
 @media (max-width:576px) {
     :root {
         --fs-xsm: 16px;
-        --fs-sm: 16px;
+        --fs-sm: 20px;
         --fs-md: 20px;
         --fs-lg: 25px;
         --fs-xl: 30px;
@@ -401,10 +447,18 @@
         --fw-md: 500;
         --fw-lg: 600;
         --fw-xl: 700;
+        --color-primary: rgba(255, 255, 255, 1);
+        --color-secondary: rgba(81, 81, 81, 1);
+        --bg-color-primary: rgba(255, 255, 255, 1);
+        --bg-color-secondary: #F1F3F6;
     }
 
     .f-sm-size {
         font-size: 24px;
+    }
+
+    .w-sm-100 {
+        width: 100%;
     }
 }
 
@@ -425,7 +479,7 @@
     }
 
     .text-lg-justify {
-        text-align: justify;
+        text-align: justify !important;
     }
 
     .transform-img-a {
@@ -438,11 +492,5 @@
 
     .min-100vh {
         min-height: 100vh;
-    }
-}
-
-@media (min-width:992px) and (max-width:1200px) {
-    .width-80 {
-        width: 80% !important;
     }
 }
