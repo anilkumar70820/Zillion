@@ -280,6 +280,7 @@
 
 
 .btn-1 {
+    border: 2px solid transparent;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -297,7 +298,7 @@
 .btn-1:hover {
     background-color: white;
     color: black;
-    border: 2px black solid;
+    border: 2px solid black;
     cursor: pointer;
 }
 
@@ -345,6 +346,12 @@
     .min-70vh {
         min-height: 70vh;
     }
+    .mt-3-md{
+        margin-top: 30px;
+    }
+    .mb-3-md{
+        margin-bottom: 30px !important;
+    }
 }
 
 @media (max-width:992px) {
@@ -374,6 +381,7 @@
         --fw-lg: 600;
         --fw-xl: 700;
     }
+   
 }
 
 @media (max-width:768px) {
@@ -387,6 +395,10 @@
         --fw-md: 500;
         --fw-lg: 600;
         --fw-xl: 700;
+    }
+
+    .f-md-size {
+        font-size: 24px;
     }
 }
 
